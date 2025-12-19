@@ -18,7 +18,7 @@ analysis/
 # Logs
 *.log
 
-# Notebooks (falls vorhanden)
+# Notebooks 
 .ipynb_checkpoints/
 
 # Local configs
