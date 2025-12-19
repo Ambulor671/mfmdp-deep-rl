@@ -451,9 +451,6 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         main()
     else:
-        # Fallback ohne CLI-Argumente:
-        # 1) ANALYZE_RUN_DIR (falls gesetzt)
-        # 2) sonst: neuester Unterordner unter ./runs/mf_sac und ./runs/mf_td3
         override = os.environ.get("ANALYZE_RUN_DIR", "").strip()
         if override and os.path.isdir(override):
             run_dir = override
