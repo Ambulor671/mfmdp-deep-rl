@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# OS / Editor stuff
+.DS_Store
+Thumbs.db
+
+# Outputs / runs
+runs/
+plots/
+analysis/
+
+# Logs
+*.log
+
+# Notebooks (falls vorhanden)
+.ipynb_checkpoints/
+
+# Local configs
+.env
