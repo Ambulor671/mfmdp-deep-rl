@@ -7,7 +7,7 @@ and compares TD3 and SAC in a mean-field MDP with common noise.
 - Mean-field environment with common noise
 - TD3 and SAC implementations in a unified setting
 - Evaluation via terminal error and discounted cost
-- Focus on conceptual clarity rather than MLOps infrastructure
+  
 
 ## Repository structure
 - `mf_triangle_modell.py` – Mean-field environment
